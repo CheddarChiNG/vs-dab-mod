@@ -1,0 +1,16 @@
+{
+  "name": "stickers-set-2",
+  "artist": "cherrychrii",
+  "stickers": {
+    "dab": ["wlwSticker1", "wlwSticker2"],
+    "quinn": ["quinSticker1", "quinSticker2"],
+    "mike": ["mikSticker1", "mikSticker2"],
+    "steph": ["steph"],
+    "misc": ["steph", "dabSticker"],
+  },
+  "stickerPacks": {
+    "dab": ["dab", "quinn", "mike", "misc"],
+    "steph": ["steph"],
+    "all": ["bf", "gf", "dab", "quinn", "mike", "misc" "pico"]
+  }
+}

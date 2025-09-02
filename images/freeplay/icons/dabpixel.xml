@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="dabpixel" width="116" height="116">
+  <SubTexture name="idle00" x="4" y="4"  width="50" height="50" frameX="-0" frameY="-0" frameWidth="50" frameHeight="50"/>
+  <SubTexture name="confirm00" x="62" y="4"  width="50" height="50" frameX="-0" frameY="-0" frameWidth="50" frameHeight="50"/>
+  <SubTexture name="confirm01" x="4" y="62"  width="50" height="50" frameX="-0" frameY="-0" frameWidth="50" frameHeight="50"/>
+  <SubTexture name="confirm-hold00" x="62" y="62"  width="50" height="50" frameX="-0" frameY="-0" frameWidth="50" frameHeight="50"/>
+</TextureAtlas>

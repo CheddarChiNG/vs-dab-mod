@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "name": "Dab",
+  "assetPath": "characters/dab",
+  "singTime": 8.0,
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "idle",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "left",
+      "offsets": [90, 0]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "down",
+      "offsets": [0, -70]
+    },
+    {
+      "name": "singUP",
+      "prefix": "up",
+      "offsets": [5, 10]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "right",
+      "offsets": [-50, 10]
+    }
+  ]
+}

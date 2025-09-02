@@ -1,0 +1,16 @@
+{
+  "version": "2.2.1",
+  "songName": "Encounter",
+  "artist": "Cherrychrii",
+  "timeFormat": "ms",
+  "timeChanges": [{ "t": 0, "bpm": 100, "n": 4, "d": 4, "bt": [4, 4, 4, 4] }],
+  "playData": {
+    "album": "vsdab1",
+    "songVariations": ["pico"],
+    "difficulties": ["hard"],
+    "characters": { "player": "bf", "girlfriend": "gf", "opponent": "dab" },
+    "stage": "mainStage",
+    "noteStyle": "funkin"
+  },
+  "generatedBy": "MasterEric (by hand)"
+}
