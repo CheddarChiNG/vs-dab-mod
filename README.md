@@ -1,11 +1,11 @@
-# Vs Dab repo lmao
+# vs dab repo
 we cooking
 
 ## credits
-CherryChi
-Betpowo
-TheConcealedCow
-CCobaltDev
-Twizinho
-Zyflx
-Bluetoot
+* cherrychi
+* betopia
+* theconcealedcow
+* ccobaltdev
+* twizinho
+* zyflx
+* bluetoot
