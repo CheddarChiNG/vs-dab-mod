@@ -1,7 +1,7 @@
 {
   "version": "2.2.4",
   "songName": "Glow (Pico Mix)",
-  "artist": "Cherrychrii (feat. Betopia)",
+  "artist": "CherryChi (feat. Betopia)",
   "charter": "Twizinho x Zyflx",
   "playData": {
     "difficulties": ["hard"],
@@ -10,9 +10,10 @@
       "girlfriend": "nene",
       "opponent": "dab",
       "instrumental": "pico",
+     "stickerPack": "dab-stickers-pico",
       "altInstrumentals": []
     },
-    "stage": "mainStageErect",
+    "stage": "forestStreetErect",
     "noteStyle": "funkin",
     "ratings": { "hard": 3 },
     "album": "vsdab1",
