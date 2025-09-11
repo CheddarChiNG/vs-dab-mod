@@ -1,15 +1,18 @@
 {
-  "version": "2.2.1",
+  "version": "2.2.4",
   "songName": "Encounter",
-  "artist": "Cherrychrii",
+  "artist": "CherryChi",
+  "charter": "Twizinho x Zyflx",
   "timeFormat": "ms",
   "timeChanges": [{ "t": 0, "bpm": 100, "n": 4, "d": 4, "bt": [4, 4, 4, 4] }],
   "playData": {
     "album": "vsdab1",
     "songVariations": ["pico"],
     "difficulties": ["hard"],
+    "ratings": { "hard": 3 },
     "characters": { "player": "bf", "girlfriend": "gf", "opponent": "dab" },
-    "stage": "mainStage",
+    "stage": "forest",
+    "stickerPack": "dab-stickers",
     "noteStyle": "funkin"
   },
   "generatedBy": "MasterEric (by hand)"

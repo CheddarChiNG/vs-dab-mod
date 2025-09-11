@@ -1,7 +1,7 @@
 {
   "version": "2.2.4",
   "songName": "Encounter (Pico Mix)",
-  "artist": "Cherrychrii (feat. Betopia)",
+  "artist": "CherryChi (feat. Betopia)",
   "charter": "Twizinho x Zyflx",
   "playData": {
     "difficulties": ["hard"],
@@ -12,10 +12,11 @@
       "instrumental": "pico",
       "altInstrumentals": []
     },
-    "stage": "mainStageErect",
+    "stage": "forestStreet",
     "noteStyle": "funkin",
     "ratings": { "hard": 3 },
     "album": "vsdab1",
+    "stickerPack": "dab-stickers-pico",
     "previewStart": 0,
     "previewEnd": 15000
   },
