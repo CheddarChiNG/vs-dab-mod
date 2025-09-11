@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "Dab-stickers",
+  "name": "DabP-stickers",
   "artist": "CherryChi, PhantomArcade3k",
   "stickers": [
     "transitionSwag/stickers-set-d/wlwSticker1",
@@ -15,11 +15,16 @@
     "transitionSwag/stickers-set-d/dabSticker",
     "transitionSwag/stickers-set-d/sus",
     "transitionSwag/stickers-set-d/steph",
-    "transitionSwag/stickers-set-1/bfSticker1",
-    "transitionSwag/stickers-set-1/bfSticker2",
-    "transitionSwag/stickers-set-1/bfSticker3",
-    "transitionSwag/stickers-set-1/gfSticker1",
-    "transitionSwag/stickers-set-1/gfSticker2",
-    "transitionSwag/stickers-set-1/gfSticker3"
+    "transitionSwag/stickers-set-2/neneSticker1",
+    "transitionSwag/stickers-set-2/neneSticker2",
+    "transitionSwag/stickers-set-2/neneSticker3",
+    "transitionSwag/stickers-set-2/picoSticker1",
+    "transitionSwag/stickers-set-2/picoSticker2",
+    "transitionSwag/stickers-set-2/picoSticker3",
+    "transitionSwag/stickers-set-2/miscSticker1",
+    "transitionSwag/stickers-set-2/miscSticker2",
+    "transitionSwag/stickers-set-2/miscSticker3",
+    "transitionSwag/stickers-set-2/miscSticker4",
+    "transitionSwag/stickers-set-2/miscSticker5"
   ]
 }
