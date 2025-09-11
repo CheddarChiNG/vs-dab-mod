@@ -6,7 +6,7 @@
     {
       "assetPath": "storymenu/props/dab",
       "scale": 0.5,
-      "offsets": [90, -100],
+      "offsets": [20, -170],
       "animations": [
         {
           "name": "idle",
