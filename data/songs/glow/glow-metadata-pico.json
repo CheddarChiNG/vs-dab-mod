@@ -6,14 +6,13 @@
   "playData": {
     "difficulties": ["hard"],
     "characters": {
-      "player": "pico-playable",
-      "girlfriend": "nene",
+      "player": "pico-christmas",
+      "girlfriend": "nene-christmas",
       "opponent": "dab",
       "instrumental": "pico",
-     "stickerPack": "dab-stickers-pico",
-      "altInstrumentals": []
+     "stickerPack": "dab-stickers-pico"
     },
-    "stage": "forestStreetErect",
+    "stage": "forestErect",
     "noteStyle": "funkin",
     "ratings": { "hard": 3 },
     "album": "vsdab1",
