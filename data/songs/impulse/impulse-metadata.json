@@ -10,8 +10,8 @@
     "songVariations": [],
     "difficulties": ["hard"],
     "ratings": { "hard": 3 },
-    "characters": { "player": "bf", "girlfriend": "gf", "opponent": "dab" },
-    "stage": "forestSunset",
+    "characters": { "player": "bf-christmas", "girlfriend": "gf-christmas", "opponent": "dab" },
+    "stage": "forestErect",
     "stickerPack": "dab-stickers",
     "noteStyle": "funkin"
   },
