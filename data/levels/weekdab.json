@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "Snowfall Fever",
+  "name": "SNOWFALL FEVER",
   "titleAsset": "storymenu/titles/weekdab",
   "props": [
     {
@@ -55,3 +55,4 @@
   "background": "#FF0044",
   "songs": ["encounter", "glow", "impulse"]
 }
+
