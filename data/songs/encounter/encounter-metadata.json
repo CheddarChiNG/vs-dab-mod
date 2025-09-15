@@ -10,7 +10,7 @@
     "songVariations": ["pico"],
     "difficulties": ["hard"],
     "ratings": { "hard": 3 },
-    "characters": { "player": "bf", "girlfriend": "gf", "opponent": "dab" },
+    "characters": { "player": "bf-christmas", "girlfriend": "gf-christmas", "opponent": "dab" },
     "stage": "forest",
     "stickerPack": "dab-stickers",
     "noteStyle": "funkin"
