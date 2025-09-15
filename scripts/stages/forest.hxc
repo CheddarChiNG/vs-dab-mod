@@ -1,1 +1,44 @@
+import flixel.FlxG;
+import flixel.FlxSprite;
+import funkin.play.stage.Stage;
+import funkin.play.PlayState;
+import funkin.graphics.shaders.AdjustColorShader;
 
+class ForestStage extends Stage
+{
+  function new()
+  {
+    super('forest');
+  }
+
+  var colorShader:AdjustColorShader;
+
+  function buildStage()
+  {
+    super.buildStage();
+
+    colorShader = new AdjustColorShader();
+
+  }
+
+  override function onCreate(event:ScriptEvent)
+  {
+    super.onCreate(event);
+
+    colorShader.hue = 0;
+    colorShader.saturation = -15;
+    colorShader.contrast = 0;
+    colorShader.brightness = 5;
+  }
+
+  /**
+   * Apply the shader to the character as it is added.
+   */
+  override function addCharacter(character:BaseCharacter, charType:CharacterType):Void
+  {
+    // Apply the shader automatically to each character as it gets added.
+    super.addCharacter(character, charType);
+    trace('Applied stage shader to ' + character.characterName);
+    character.shader = colorShader;
+  }
+}
