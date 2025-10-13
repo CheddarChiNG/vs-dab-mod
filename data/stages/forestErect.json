@@ -7,18 +7,8 @@
 		"animType": "sparrow",
 		"name": "sky",
 		"isPixel": false,
-		"assetPath": "stages/snowy/sky",
+		"assetPath": "stages/snowy/erect/sunriseBG",
 		"scroll": [0.8, 0.8]
-	},
-	{
-		"zIndex": 10,
-		"position": [160, -200],
-		"scale": [1, 1],
-		"animType": "sparrow",
-		"name": "moon",
-		"isPixel": false,
-		"assetPath": "stages/snowy/moon",
-		"scroll": [0.85, 0.85]
 	},
 	{
 		"zIndex": 20,
@@ -27,7 +17,7 @@
 		"animType": "sparrow",
 		"name": "city",
 		"isPixel": false,
-		"assetPath": "stages/snowy/bgBridge",
+		"assetPath": "stages/snowy/erect/erectBridge",
 		"scroll": [0.9, 0.9]
 	},
 	{
@@ -37,18 +27,8 @@
 		"animType": "sparrow",
 		"name": "city",
 		"isPixel": false,
-		"assetPath": "stages/snowy/snow",
+		"assetPath": "stages/snowy/erect/erectSnow",
 		"scroll": [1, 1]
-	},
-	{
-		"zIndex": 400,
-		"position": [-1000, 100],
-		"scale": [1.1, 1.1],
-		"animType": "sparrow",
-		"name": "stageCurtains",
-		"isPixel": false,
-		"assetPath": "stages/snowy/fgBush",
-		"scroll": [1.2, 1.2]
 	},
 	{
 		"zIndex": 350,
@@ -59,11 +39,21 @@
 		"isPixel": false,
 		"blend": "add",
 		"alpha": 0.5,
-		"assetPath": "stages/snowy/aura",
+		"assetPath": "stages/snowy/erectShining",
 		"scroll": [1, 1]
+	},
+	{
+		"zIndex": 400,
+		"position": [-1000, 100],
+		"scale": [1.1, 1.1],
+		"animType": "sparrow",
+		"name": "stageCurtains",
+		"isPixel": false,
+		"assetPath": "stages/snowy/erect/erectFG",
+		"scroll": [1.2, 1.2]
 	}
   ],
-  "name": "Forest",
+  "name": "Forest (ALT)",
   "cameraZoom": 0.65,
   "version": "1.0.0",
   "characters": {
