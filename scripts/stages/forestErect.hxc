@@ -1,70 +1,56 @@
 import flixel.FlxG;
-import flixel.math.FlxAngle;
-import flixel.graphics.FlxGraphic;
-import funkin.play.PlayState;
+import flixel.FlxSprite;
 import funkin.play.stage.Stage;
-import funkin.graphics.FunkinSprite;
-import funkin.graphics.shaders.DropShadowShader;
+import funkin.play.PlayState;
 import funkin.graphics.shaders.AdjustColorShader;
-import funkin.play.character.CharacterType;
-import openfl.display.BitmapData;
-import funkin.Preferences;
-import funkin.ui.options.PreferencesMenu;
+import flixel.addons.display.FlxTiledSprite;
 
 class ForestErectStage extends Stage
 {
-	function new()
-	{
-		super('forestErect');
-	}
+  function new()
+  {
+    super('forestErect');
+  }
 
-	var tankmanRim:DropShadowShader;
+  var colorShader:AdjustColorShader;
+  var clouds:FlxTiledSprite;
 
-	public function onGameOver(event:ScriptEvent) {
-		super.onGameOver(event);
-		getBoyfriend().shader = null;
-	}
+  function buildStage()
+  {
+    super.buildStage();
 
-	override function addCharacter(character:BaseCharacter, charType:CharacterType):Void {
-		// Apply the shader automatically to each character as it gets added.
-		super.addCharacter(character, charType);
-		trace('Applied stage shader to ' + character.characterName);
+    colorShader = new AdjustColorShader();
 
-		var rim = new DropShadowShader();
-		rim.setAdjustColor(-10, 5, -10, 0);
-        rim.color = 0xFFffcda4;
-		character.shader = rim;
-		rim.attachedSprite = character;
+    clouds = new FlxTiledSprite(Paths.image('stages/snowy/erect/clouds'), 3200, 235, true, false);
+    clouds.setPosition(-1100, 20);
+    clouds.scrollFactor.set(0.25, 0.25);
+    clouds.zIndex = 12;
 
-		switch(charType){
-			case CharacterType.BF:
+    clouds.velocity.x = 8;
 
-				rim.angle = 60;
+    PlayState.instance.currentStage.add(clouds);
+    PlayState.instance.currentStage.refresh(); // Apply z-index.
 
-				character.animation.onFrameChange.add(function() {
-					if (getBoyfriend() != null)
-					{
-      			rim.updateFrameInfo(getBoyfriend().frame);
-					}
-    		});
+  }
 
-			case CharacterType.GF:
+  override function onCreate(event:ScriptEvent)
+  {
+    super.onCreate(event);
 
-				rim.angle = 90;
+    colorShader.hue = 10;
+    colorShader.saturation = 10;
+    colorShader.contrast = 10;
+    colorShader.brightness = -10;
+  }
 
-				character.animation.onFrameChange.add(function() {
-      		rim.updateFrameInfo(getGirlfriend().frame);
-    		});
-
-			case CharacterType.DAD:
-
-				rim.angle = 75;
-
-				character.animation.onFrameChange.add(function() {
-      		rim.updateFrameInfo(getDad().frame);
-    		});
-
-			default:
-		}
-	}
+  /**
+   * Apply the shader to the character as it is added.
+   */
+  override function addCharacter(character:BaseCharacter, charType:CharacterType):Void
+  {
+    // Apply the shader automatically to each character as it gets added.
+    super.addCharacter(character, charType);
+    trace('Applied stage shader to ' + character.characterName);
+    character.shader = colorShader;
+  }
 }

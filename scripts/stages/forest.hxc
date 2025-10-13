@@ -10,15 +10,13 @@ class ForestStage extends Stage
   {
     super('forest');
   }
-
+  
   var colorShader:AdjustColorShader;
-
+  
   function buildStage()
   {
     super.buildStage();
-
     colorShader = new AdjustColorShader();
-
   }
 
   override function onCreate(event:ScriptEvent)
@@ -31,9 +29,6 @@ class ForestStage extends Stage
     colorShader.brightness = 5;
   }
 
-  /**
-   * Apply the shader to the character as it is added.
-   */
   override function addCharacter(character:BaseCharacter, charType:CharacterType):Void
   {
     // Apply the shader automatically to each character as it gets added.
