@@ -1,7 +1,10 @@
 {
   "version": "1.0.0",
-  "name": "dab extras",
+  "name": "extra songs here type shii",
   "visible": false,
+  "titleAsset": "storymenu/titles",
+  "props": [],
+  "background": "#FFFFFF",
   "songs": [
     "15pesos"
   ]
