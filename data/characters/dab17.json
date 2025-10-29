@@ -3,6 +3,12 @@
   "name": "Dab",
   "assetPath": "characters/dab",
   "singTime": 8.0,
+  "healthIcon": {
+      "id": "dab",
+      "isPixel": false,
+      "flipX": false,
+      "scale": 1
+    },
   "animations": [
     {
       "name": "idle",
