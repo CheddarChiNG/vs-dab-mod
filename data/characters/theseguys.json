@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "name": "mikenquin",
+  "assetPath": "characters/theseguys",
+  "singTime": 8.0,
+   "scale": 0.9,
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "idle",
+      "offsets": [0, 0]
+    }
+  ]
+}

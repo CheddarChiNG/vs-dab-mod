@@ -1,0 +1,175 @@
+import funkin.modding.module.Module;
+import funkin.ui.credits.CreditsState;
+import funkin.ui.credits.CreditsDataHandler;
+
+class VsDabCredits extends Module {
+	public function new() {
+		super("VsDabCredits");
+	}
+
+	public function onCreate(event:ScriptEvent) // The categories have to be reversed due to the unshift sending it to the top
+	{
+		super.onCreate(event);
+
+	CreditsDataHandler.CREDITS_DATA.entries.unshift({
+		header: "Special Thanks",
+		body: [
+			{
+				line: "TheConcealedCow",
+			},
+			{
+				line: "Betopia",
+			},
+			{
+				line: "Ellie",
+			}
+		]
+	});
+	CreditsDataHandler.CREDITS_DATA.entries.unshift( // for example this one is on the bottom
+		{
+			header: "Extras",
+			body: [
+				{
+					line: "CCobaltDev",
+				},
+				{
+					line: "Tinkatonk / Squidbowl",
+				},
+				{
+					line: "Kuru",
+				},
+				{
+					line: "MTGM",
+				},
+				{
+					line: "Bluetoot",
+				},
+				{
+					line: "Daninnocent",
+				},
+				{
+					line: "Fezure",
+				},
+				{
+					line: "Nafri",
+				},
+				{
+					line: "Knave",
+				},
+				{
+					line: "YaWillorYaWont",
+				}
+			]
+		});
+		CreditsDataHandler.CREDITS_DATA.entries.unshift({
+			header: "Featuring:",
+			body: [
+				{
+					line: "Kasane Teto",
+				},
+				{
+					line: "That one alien girl from my dreams idk",
+            },
+            {
+		   		line: "Goldship",
+				},
+				{
+					line: "the beef and the chicken jump",
+				},
+				{
+					line: "Kris and Susie",
+				},
+				{
+					line: "Freddy 'FNAF' Fazbear",
+				},
+				{
+					line: "Sonic the Hedgehog",
+				},
+            {
+               line: "Zoosmell Pooplord",
+            }
+			]
+		});
+		CreditsDataHandler.CREDITS_DATA.entries.unshift({
+			header: "Charting",
+			body: [
+				{
+					line: "Twizinho",
+				},
+				{
+					line: "Zyflx (Pico Mix)",
+				},
+				{
+					line: "Bluetoot (V1)",
+				}
+			]
+		});
+		CreditsDataHandler.CREDITS_DATA.entries.unshift({
+			header: "Programming",
+			body: [
+				{
+					line: "TheConcealedCow",
+				},
+				{
+					line: "Betopia",
+				},
+            {
+               line: "CCobaltDev",
+             }
+			]
+		});
+		CreditsDataHandler.CREDITS_DATA.entries.unshift({
+			header: "Voice Acting",
+			body: [
+				{
+					line: "CherryChi (Voice of Dab)",
+				}
+			]
+		});
+		CreditsDataHandler.CREDITS_DATA.entries.unshift({
+			header: "Music Production",
+			body: [
+				{
+					line: "Betopia",
+				},
+				{
+					line: "CherryChi",
+				},
+				{
+					line: "kuru (i feel bad idk)",
+				}
+			]
+		});
+		CreditsDataHandler.CREDITS_DATA.entries.unshift({
+			header: "Artists",
+			body: [
+				{
+					line: "CherryChi",
+				},
+				{
+					line: "Betpowo",
+				},
+				{
+					line: "TheConcealedCow",
+				}
+			]
+		});
+		CreditsDataHandler.CREDITS_DATA.entries.unshift({
+			header: "Director",
+			body: [
+				{
+					line: "CherryChi",
+				}
+			]
+		});
+		CreditsDataHandler.CREDITS_DATA.entries.unshift( // and this is on da top
+			{
+				header: "Friday Night Funkin': Vs Dab (2025)",
+				body: [
+					{
+						line: ""
+					}
+				]
+			});
+	}
+}

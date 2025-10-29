@@ -1,0 +1,90 @@
+{
+    "version": "1.0.0",
+    "name": "Boyf",
+    "assetPath": "characters/boyfrind",
+    "singTime": 6.1,
+    "renderType": "sparrow",
+    "isPixel": false,
+    "scale": null,
+    "healthIcon": {
+        "id": "boyf",
+        "isPixel": false,
+        "flipX": false,
+        "scale": 1
+    },
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "IDLE",
+            "offsets": [
+                10,
+                0
+            ]
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "RIGHT",
+            "offsets": [
+                2,
+                -6
+            ]
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "LEFT",
+            "offsets": [
+                25,
+                -8
+            ]
+        },
+        {
+            "name": "singUP",
+            "prefix": "UP",
+            "offsets": [
+                -6,
+                50
+            ]
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "DOWN",
+            "offsets": [
+                10,
+                -31
+            ]
+        },
+        {
+            "name": "singRIGHTmiss",
+            "prefix": "misright",
+            "offsets": [
+                0,
+                -3
+            ]
+        },
+        {
+            "name": "singUPmiss",
+            "prefix": "upmiss",
+            "offsets": [
+                0,
+                50
+            ]
+        },
+        {
+            "name": "singLEFTmiss",
+            "prefix": "leftmiss",
+            "offsets": [
+                30,
+                -10
+            ]
+        },
+        {
+            "name": "singDOWNmiss",
+            "prefix": "downmiss",
+            "offsets": [
+                10,
+                -20
+            ]
+        }
+    ],
+    "flipX": true
+}

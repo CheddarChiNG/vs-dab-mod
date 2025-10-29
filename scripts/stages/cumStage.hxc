@@ -1,0 +1,59 @@
+import flixel.FlxG;
+import flixel.FlxSprite;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+import flixel.util.FlxGradient;
+import funkin.graphics.FunkinSprite;
+import funkin.play.PlayState;
+import funkin.play.stage.Stage;
+import funkin.util.Constants;
+import haxe.ds.IntMap;
+import funkin.Conductor;
+import funkin.Preferences;
+import funkin.mobile.input.ControlsHandler;
+
+class cumStage extends Stage
+{
+	public var bg:FlxSprite;
+
+	public function new()
+	{
+		super('cumStage');
+	}
+
+	override function buildStage():Void
+	{
+		super.buildStage();
+		if (FlxG.onMobile)
+		{
+			if (ControlsHandler.usingExternalInputDevice && Preferences.controlsScheme != "Arrows")
+				Constants.STRUMLINE_X_OFFSET = 95;
+		}
+		else
+			Constants.STRUMLINE_X_OFFSET = 95;
+
+		var p = PlayState.instance;
+
+		p.camGame.width = Std.int(FlxG.width * 1.5);
+		p.camGame.height = Std.int(FlxG.height * 1.5);
+		p.camGame.x = -(p.camGame.width - FlxG.width) / 2;
+		p.camGame.y = -(p.camGame.height - FlxG.height) / 2;
+		p.camGame.bgColor = 0xFFFFFFFF;
+		p.camHUD.alpha = 1;
+
+		bg = new FlxSprite();
+		bg.makeGraphic(FlxG.width * 3, FlxG.height * 3, 0xFFFFFFFF);
+		bg.cameras = [p.camGame];
+		bg.scrollFactor.set(0, 0);
+		bg.screenCenter();
+		add(bg);
+
+		gradient = new FunkinSprite(0, -360);
+		gradient.loadGraphic(FlxGradient.createGradientBitmapData(2, 800, [0xFF808080, 0x00808080], 1, 90));
+		gradient.screenCenter(0x01);
+		gradient.scale.set(2000, 1);
+		gradient.cameras = [p.camGame];
+		gradient.scrollFactor.set(0, 0);
+		add(gradient);
+	}
+}
