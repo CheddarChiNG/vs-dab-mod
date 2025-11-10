@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "name": "m",
+  "visible": false,
+  "titleAsset": "storymenu/titles",
+  "props": [],
+  "background": "#FFFFFF",
+  "songs": ["eep", "sour", "15pesos"]
+}

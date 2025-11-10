@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "name": "Teto (PLACEHOLDER)",
+  "assetPath": "characters/teto",
+  "singTime": 8.0,
+  "scale": 1.5,
+  "flipX": true,
+  "offsets": [-30, 0],
+  "healthIcon": {
+      "id": "teto",
+      "isPixel": false,
+      "flipX": false,
+      "scale": 1
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "idle",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "left0",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "down0",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUP",
+      "prefix": "up0",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "right0",
+      "offsets": [0, 0]
+    }
+  ]
+}
