@@ -1,9 +1,9 @@
 {
   "version": "1.0.0",
-  "name": "m",
+  "name": "ok",
   "visible": false,
-  "titleAsset": "storymenu/titles",
+  "titleAsset": "storymenu/titles/weekdab",
   "props": [],
   "background": "#FFFFFF",
-  "songs": ["eep", "sour", "15pesos"]
+  "songs": ["sour", "15pesos"]
 }

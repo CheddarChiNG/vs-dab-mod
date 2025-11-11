@@ -1,14 +1,8 @@
 {
   "version": "1.0.0",
-  "name": "Dab",
-  "assetPath": "characters/dab",
+  "name": "Deb",
+  "assetPath": "characters/15pesos/dab17",
   "singTime": 8.0,
-  "healthIcon": {
-      "id": "dab17",
-      "isPixel": false,
-      "flipX": false,
-      "scale": 1
-    },
   "animations": [
     {
       "name": "idle",
@@ -18,29 +12,22 @@
     {
       "name": "singLEFT",
       "prefix": "left",
-      "offsets": [40, 5]
+      "offsets": [80, 25]
     },
     {
       "name": "singDOWN",
       "prefix": "down",
-      "offsets": [-60, -10]
-    },
-    {
-      "name": "singDOWN-hold",
-      "prefix": "down",
-      "looped": true,
-      "frameIndices": [2, 3, 4, 5],
-      "offsets": [-60, -10]
+      "offsets": [20, -40]
     },
     {
       "name": "singUP",
       "prefix": "up",
-      "offsets": [10, -10]
+      "offsets": [100, 70]
     },
     {
       "name": "singRIGHT",
       "prefix": "right",
-      "offsets": [-20, 0]
+      "offsets": [180, -20]
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "props": [],
-  "cameraZoom": 0.8,
+  "cameraZoom": 0.6,
   "version": "1.0.0",
   "characters": {
         "bf": {
@@ -10,7 +10,7 @@
         },
         "dad": {
             "zIndex": 200,
-            "position": [-50, 130],
+            "position": [-90, 130],
             "cameraOffsets": [150, -100]
         },
         "gf": {
