@@ -13,3 +13,4 @@ you can check the mod here i think https://gamebanana.com/wips/78669
 * bluetoot
 * jadeparade / kuru / random name generator idk
 * kasane teto
+* tinkatonk / squidbowl
